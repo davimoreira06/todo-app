@@ -19,6 +19,7 @@
         <form>
             <div class="div-form">
                 <input type="checkbox" id="check" name="check">
+                <img class="check-img" src="./assets/icons/icon-check.svg">
                 <input type="text" id="input-create" name="input-create" placeholder="Create a new todo..." >
             </div>
         </form> 
@@ -31,15 +32,15 @@
             </ul>
             <div class="footer-tasks">          
                 <div class="ft-left">
-                    <p>items left</p>
+                    <p><span id="items-left">N</span> items left</p>
                 </div>
                 <div class="ft-mid">
-                    <span>All</span>
-                    <span>Active</span>
-                    <span>Completed</span>
+                    <span id="all-span">All</span>
+                    <span id="active-span">Active</span>
+                    <span id="completed-span">Completed</span>
                 </div>
                 <div class="ft-right">
-                    <p>Clear Completed</p>
+                    <p id="clear">Clear Completed</p>
                 </div>
             </div>
         </div>    

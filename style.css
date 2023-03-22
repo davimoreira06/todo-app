@@ -46,6 +46,12 @@ h1 {
     border-radius: 0.5rem;
 }
 
+.check-img {
+    display: none;
+    position: relative;
+    right: 1.15rem;
+}
+
 #check {
     margin-top: 1.3rem;
     margin-left: 1.8rem;
@@ -62,6 +68,16 @@ h1 {
     position: relative;
     right: 0.5rem;
     bottom: 0.3rem;
+}
+
+#check:checked:before {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+#check:checked .check-img {
+    display: block;
 }
 
 #input-create {
@@ -85,12 +101,9 @@ ul {
 li {
     margin-left: auto;
     margin-right: auto;
-    background-color: hsl(235, 24%, 19%);
-    width: 33.5vw;
     height: 3.5rem;
     margin-top: 1.4rem;
-    border-radius: 0.5rem;
-    border-bottom: 1px solid hsl(234, 11%, 52%);
+    border-bottom: 0.1rem solid hsla(233, 11%, 52%, 0.416);
 }
 
 #check-li {
@@ -111,9 +124,52 @@ li {
     bottom: 0.3rem;
 }
 
+#check-li:checked:before {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
 
-span {
+
+li span {
     font-size: 1.1rem;
     color: hsl(234, 11%, 52%);
-    margin-left: 1rem;
+    margin-left: 1.5rem;
+}
+
+.tasks {
+    background-color: hsl(235, 24%, 19%);
+    width: 33.5vw;
+    height: 6.3rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+}
+
+.footer-tasks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ft-left p {
+    color: hsl(234, 11%, 52%);
+    margin-left: 1.5vw;
+    margin-top: 1rem;
+}
+
+.ft-mid {
+    margin-top: 1rem;
+}
+
+.ft-mid span {
+    color: hsl(234, 11%, 52%);
+    margin-left: 1.8rem;
+    cursor: pointer;
+}
+
+.ft-right p {
+    color: hsl(234, 11%, 52%);
+    margin-right: 1.5vw;
+    margin-top: 1rem;
+    cursor: pointer;
 }
