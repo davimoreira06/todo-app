@@ -7,11 +7,45 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Todo List</title>
 </head>
 <body> 
-    <img src="./assets/backgrounds/bg-desktop-dark.jpg">
+    <div class="bg-top">
+        <div class="nav-bg">
+            <h1>TODO</h1>
+            <img id="icon-sun" src="./assets/icons/icon-sun.svg">
+        </div>   
+        <form>
+            <div class="div-form">
+                <input type="checkbox" id="check" name="check">
+                <input type="text" id="input-create" name="input-create" placeholder="Create a new todo..." >
+            </div>
+        </form> 
+        <div class="tasks">
+            <ul>
+                <li>
+                    <input type="checkbox" id="check-li" name="check-li">
+                    <span>Teste</span>
+                </li>
+            </ul>
+            <div class="footer-tasks">          
+                <div class="ft-left">
+                    <p>items left</p>
+                </div>
+                <div class="ft-mid">
+                    <span>All</span>
+                    <span>Active</span>
+                    <span>Completed</span>
+                </div>
+                <div class="ft-right">
+                    <p>Clear Completed</p>
+                </div>
+            </div>
+        </div>    
+    </div>
     
+
+
 </body>
 </html>
