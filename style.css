@@ -52,41 +52,14 @@ h1 {
     right: 1.15rem;
 }
 
-#check {
-    margin-top: 1.3rem;
-    margin-left: 1.8rem;
-}
-
-#check:before {
-    content: "";
-    width: 1.5rem;
-    height: 1.5rem;
-    background-color:  hsl(235, 24%, 19%);
-    border: 1px solid hsl(233, 14%, 35%);
-    border-radius: 3rem;
-    display: inline-block;
-    position: relative;
-    right: 0.5rem;
-    bottom: 0.3rem;
-}
-
-#check:checked:before {
-    width: 1.5rem;
-    height: 1.5rem;
-    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
-}
-
-#check:checked .check-img {
-    display: block;
-}
-
 #input-create {
     border: none;
     background-color: transparent;
     font-size: 1.1rem;
     color: hsl(234, 11%, 52%);
     margin-left: 1.5rem;
-    width: 28vw;
+    width: 32vw;
+    margin-top: 1.4rem;
 }
 
 #input-create:focus {
