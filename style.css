@@ -106,8 +106,8 @@ li {
 
 li span {
     font-size: 1.1rem;
-    color: hsl(234, 11%, 52%);
-    margin-left: 1.5rem;
+    color: hsl(234, 39%, 85%);
+    margin-left: 0.8rem;
 }
 
 .tasks {
@@ -145,6 +145,10 @@ li span {
     margin-right: 1.5vw;
     margin-top: 1rem;
     cursor: pointer;
+}
+
+.ft-mid-resp {
+    display: none;
 }
 
 @media (max-width: 1520px) {
@@ -213,3 +217,47 @@ li span {
     }
 }
 
+@media (max-width: 530px) {
+    .ft-mid {
+        display: none;
+    }
+
+    .ft-mid-resp {
+        display: block;
+        width: 85vw;
+        background-color: hsl(235, 24%, 19%);
+        height: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .ft-mid-resp span {
+        color: hsl(234, 11%, 52%);
+        position: relative;
+        top: 1rem;
+        margin-right: 2vw;
+        margin-left: 2vw;
+        font-size: 0.95rem;
+    }
+
+    .ft-left p {
+        margin-left: 3vw;
+        font-size: 0.95rem;
+    }
+
+    .ft-right p {
+        margin-right: 3vw;
+        font-size: 0.95rem;
+    }
+
+    li span {
+        font-size: 0.95rem;
+    }
+
+    #input-create::placeholder {
+        font-size: 0.95rem;
+    }
+}
