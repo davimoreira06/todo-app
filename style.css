@@ -40,7 +40,7 @@ h1 {
     margin-right: auto;
     margin-left: auto;
     background-color: hsl(235, 24%, 19%);
-    width: 33.5vw;
+    width: 34vw;
     height: 3.5rem;
     margin-top: 3rem;
     border-radius: 0.5rem;
@@ -112,7 +112,7 @@ li span {
 
 .tasks {
     background-color: hsl(235, 24%, 19%);
-    width: 33.5vw;
+    width: 34vw;
     height: 6.3rem;
     margin-left: auto;
     margin-right: auto;
@@ -136,7 +136,7 @@ li span {
 
 .ft-mid span {
     color: hsl(234, 11%, 52%);
-    margin-left: 1.8rem;
+    margin-left: 1.5vw;
     cursor: pointer;
 }
 
@@ -146,3 +146,70 @@ li span {
     margin-top: 1rem;
     cursor: pointer;
 }
+
+@media (max-width: 1520px) {
+    .div-form {
+        width: 40vw;
+    }
+
+    .tasks {
+        width: 40vw;
+    }
+
+    #input-create {
+        width: 38vw;
+    }
+
+    h1 {
+        padding-left: 30vw;
+    }
+
+    #icon-sun {
+        padding-right: 30vw;
+    }
+}
+
+@media (max-width: 1300px) {
+    .div-form {
+        width: 55vw;
+    }
+
+    .tasks {
+        width: 55vw;
+    }
+
+    #input-create {
+        width: 50vw;
+    }
+
+    h1 {
+        padding-left: 22.5vw;
+    }
+
+    #icon-sun {
+        padding-right: 22.5vw;
+    }
+}
+
+@media (max-width: 850px) {
+    .div-form {
+        width: 85vw;
+    }
+
+    .tasks {
+        width: 85vw;
+    }
+
+    #input-create {
+        width: 80vw;
+    }
+
+    h1 {
+        padding-left: 8vw;
+    }
+
+    #icon-sun {
+        padding-right: 8vw;
+    }
+}
+
