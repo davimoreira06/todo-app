@@ -110,6 +110,13 @@ li span {
     margin-left: 0.8rem;
 }
 
+.delete-img {
+    float: right;
+    margin-top: 1.1rem;
+    margin-right: 1.8rem;
+    cursor: pointer;
+}
+
 .tasks {
     background-color: hsl(235, 24%, 19%);
     width: 34vw;
