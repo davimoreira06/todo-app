@@ -14,7 +14,7 @@ body {
 .bg-top {
     width: 100vw;
     height: 35vh;
-    background-image: url("./assets/backgrounds/bg-desktop-dark.jpg");
+    background-image: url("../assets/backgrounds/bg-desktop-dark.jpg");
     background-size: cover;
 }
 
@@ -67,6 +67,14 @@ h1 {
     outline: 0;
 }
 
+.add-img {
+    float: right;
+    margin-top: -1.3rem;
+    margin-right: 1.8rem;
+    transform: rotate(45deg);
+    cursor: pointer;
+}
+
 ul {
     list-style: none;
 }
@@ -94,7 +102,7 @@ li {
     display: inline-block;
     position: relative;
     right: 0.5rem;
-    bottom: 0.3rem;
+    bottom: 0.4rem;
 }
 
 #check-li:checked:before {
