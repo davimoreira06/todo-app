@@ -69,11 +69,11 @@ h1 {
     cursor: pointer;
 }
 
-ul {
+.ul-tasks {
     list-style: none;
 }
 
-li {
+.li-tasks {
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -81,7 +81,10 @@ li {
     background-color: hsl(235, 24%, 19%);
     border-bottom: 0.1rem solid hsla(233, 11%, 52%, 0.416);
     border-radius: 0.5rem 0.5rem 0 0; 
-    margin-top: 1.4rem;
+}
+
+li:hover .delete-img {
+    display: inline;
 }
 
 #check-li {
@@ -133,6 +136,7 @@ li span {
     margin-top: 1.1rem;
     margin-right: 1.8rem;
     cursor: pointer;
+    display: none;
 }
 
 .tasks {
@@ -141,6 +145,8 @@ li span {
     margin-left: auto;
     margin-right: auto;
     border-radius: 0.5rem;
+    position: relative;
+    top: 1.5rem;
 }
 
 .footer-tasks {
