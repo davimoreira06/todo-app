@@ -35,7 +35,7 @@ Lista de tarefas onde os usuários podem:
 ## Aprendizado com o projeto
 
 - Armazenar dados no LocalStorage, evitando a perda de dados ao atualizar a página.
-- Habilidades aprimoras na manipulação do DOM.
+- Habilidades aprimoradas na manipulação do DOM.
 
 #
 
