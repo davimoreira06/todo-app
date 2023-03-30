@@ -20,7 +20,7 @@ Lista de tarefas onde os usuários podem:
 
 ## Layout mobile
 
-<img src="./assets/layouts/layout-mobile.jpg">
+<img src="./assets/layouts/layout-mobile.jpg" width="300">
 
 #
 
